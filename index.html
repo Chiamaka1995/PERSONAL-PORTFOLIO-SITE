@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERSONAL PORTFOLIO SITE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=JetBrains+Mono:wght@400;500&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header>
+        <nav class="nav-container" aria-label="Main Navigation">
+            <a href="#home" class="logo">DEV<span class="accent">.</span></a>
+            
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="resume.pdf" download class="nav-resume"><i class="ri-file-download-line"></i> Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section id="home" class="hero">
+            <div class="hero-container">
+                <div class="hero-image">
+                    <img src="photo.jpg.jpeg" alt="ANN NWANGUMA">
+                </div>
+                <div class="hero-content">
+                    <span class="code-label">&lt;hello_world&gt;</span>
+                    <h1>I AM <span class="accent">ANN NWANGUMA</span></h1>
+                    <p>Crafting high-performance, responsive web architectures from the ground up using clean, intentional codebase practices.</p>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary">Explore Work</a>
+                        <a href="resume.pdf" download class="btn btn-secondary"><i class="ri-download-line"></i> Download CV</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com" target="_blank" aria-label="GitHub"><i class="ri-github-line"></i></a>
+                        <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="ri-linkedin-line"></i></a>
+                        <a href="https://twitter.com" target="_blank" aria-label="Twitter/X"><i class="ri-twitter-x-line"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="section-container">
+                <span class="code-label">cat bio.txt</span>
+                <h2>ABOUT ME</h2>
+                <div class="about-grid">
+                    <div class="about-story">
+                        <p>I am a software engineer focused on developing modular digital environments. My core philosophy relies on structural logic, standard compliance, and maximizing interface performance metrics without relying on template abstraction layer models.</p>
+                    </div>
+                    <div class="about-program">
+                        <h3>PROGRAM CONTEXT</h3>
+                        <p>Currently engineering strict custom systems independently, building structural assets, and extending technical optimization logic over diverse browser formats.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="section-container">
+                <span class="code-label">./show_env_vars</span>
+                <h2>SKILLS & ROADMAP</h2>
+                <div class="skills-grid">
+                    <div class="skills-card">
+                        <h3>Current Stack</h3>
+                        <ul class="skills-list">
+                            <li><i class="ri-html5-fill accent"></i> HTML5 (Semantic Design)</li>
+                            <li><i class="ri-css3-fill accent"></i> CSS3 (Custom Variables)</li>
+                            <li><i class="ri-javascript-fill accent"></i> JavaScript (ES6+ Native Engine)</li>
+                            <li><i class="ri-git-branch-line accent"></i> Architecture Control (Git)</li>
+                        </ul>
+                    </div>
+                    <div class="skills-card roadmap">
+                        <h3>Learning Roadmap</h3>
+                        <ul class="skills-list">
+                            <li><i class="ri-arrow-right-circle-line"></i> Strict TypeScript Environments</li>
+                            <li><i class="ri-arrow-right-circle-line"></i> Node.js Engine Architecture</li>
+                            <li><i class="ri-arrow-right-circle-line"></i> Advanced Web Performance Metrics</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="section-container">
+                <span class="code-label">ls --featured-projects</span>
+                <h2>PROJECTS</h2>
+                <div class="project-grid">
+                    <article class="project-card">
+                        <div class="project-header">
+                            <span class="status status-completed">Completed</span>
+                            <div class="project-actions">
+                                <a href="#" target="_blank" aria-label="Live Demo Link"><i class="ri-external-link-line"></i></a>
+                                <a href="#" target="_blank" aria-label="Source GitHub Repository"><i class="ri-github-line"></i></a>
+                            </div>
+                        </div>
+                        <h3>Project Title One</h3>
+                        <p>A high-performance semantic web interface configured natively to minimize layout rendering bottlenecks.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-header">
+                            <span class="status status-wip">In Progress</span>
+                            <div class="project-actions">
+                                <a href="#" target="_blank" aria-label="Source GitHub Repository"><i class="ri-github-line"></i></a>
+                            </div>
+                        </div>
+                        <h3>Project Title Two</h3>
+                        <p>An accessible dashboard module designed with customized layout arrays and adaptive query scaling rules.</p>
+                        <div class="project-tags">
+                            <span class="tag">CSS Grid</span>
+                            <span class="tag">Responsive UI</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="section-container">
+                <span class="code-label">contact_me()</span>
+                <h2>GET IN TOUCH</h2>
+                <div class="contact-grid">
+                    <div class="contact-details">
+                        <h3>Direct Channels</h3>
+                        <p>Open for engineering contracts, full-time configurations, or direct technical discussions.</p>
+                        <div class="contact-items">
+                            <p><i class="ri-mail-send-line accent"></i> nwanguma19ann@gmail.com</p>
+                            <p><i class="ri-map-pin-2-line accent"></i> Lagos, Nigeria</p>
+                        </div>
+                    </div>
+                    <form action="https://formspree.io/f/your_id" method="POST" class="contact-form">
+                        <div class="form-field">
+                            <label for="name" class="sr-only">Full Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Full Name">
+                        </div>
+                        <div class="form-field">
+                            <label for="email" class="sr-only">Email Address</label>
+                            <input type="email" id="email" name="email" required placeholder="Email Address">
+                        </div>
+                        <div class="form-field">
+                            <label for="message" class="sr-only">Message Description</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+
+    <footer>
+        <p>&copy; 2026 Your Name. Handcoded from scratch.</p>
+    </footer>
+
+</body>
+</html>
